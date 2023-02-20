@@ -26,13 +26,13 @@ p {
     font-size: 2rem;
 }
 
-button {
+.btn {
     font-family: 'Oswald', sans-serif;
 }
 
 .hero {
     width: 100vw;
-    height: 125vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     object-fit: cover;

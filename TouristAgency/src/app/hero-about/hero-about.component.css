@@ -16,7 +16,7 @@ p {
 
 .hero {
     width: 100vw;
-    height: 125vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     object-fit: cover;
