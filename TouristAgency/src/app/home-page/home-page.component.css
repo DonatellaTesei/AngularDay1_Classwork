@@ -1,10 +1,11 @@
 .container {
     margin-top: 5rem;
-    margin-left: 8rem;
-    margin-right: 5rem;
+    /* margin-left: 8rem;
+    margin-right: 5rem; */
     margin-bottom: 0.5rem;
-    width: 90%;
+    width: 100%;
     font-family: 'Oswald', sans-serif;
+    padding: 0;
     /* row-gap: 10rem;
     column-gap: 10rem; */
 }
@@ -52,11 +53,13 @@
     background-image: url("/assets/frangipani.jpg");
     /* Set a specific height */
     height: 200vh;
-    width: 100%;
+    /* width: 100%; */
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position-y: cover;
-    background-size: cover;
+    background-size: initial;
+    padding: 0;
+    margin: auto;
 }
 
 .parallax2 {
