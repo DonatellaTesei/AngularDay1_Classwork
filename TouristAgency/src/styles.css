@@ -5,3 +5,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    --navbar-scroll: transparent;
+    --navbar-scroll-text: white !important;
+    --navbar-scroll-shadow: "0px 6px 12px -5px #000000";
+    --nav-item-hover: "rgba(216, 112, 147, 0.3)";
+    --nav-item-collspse: transparent;
+    --dropdown-menu: "rgba(245, 245, 245, 0.3)";
+    --dropdown-menu-font-color: "black";
+    background-color: whitesmoke;
+}
+
+@font-face {
+    font-family: 'GlacialIndifference_reg';
+    src: url('./assets/font/GlacialIndifference-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GlacialIndifference_bold';
+    src: url('./assets/font/GlacialIndifference-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GlacialIndifference_italic';
+    src: url('./assets/font/GlacialIndifference-Italic.otf');
+}

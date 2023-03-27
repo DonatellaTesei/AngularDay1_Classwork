@@ -1,65 +1,124 @@
-.container {
-    margin-top: 5rem;
-    /* margin-left: 8rem;
-    margin-right: 5rem; */
-    margin-bottom: 0.5rem;
-    width: 100%;
-    font-family: 'Oswald', sans-serif;
-    padding: 0;
-    /* row-gap: 10rem;
-    column-gap: 10rem; */
+#cont-top {
+    display: flex;
+    justify-content: center;
+}
+
+.post-title {
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-top: 6rem;
+    margin-left: -3rem;
+    z-index: 1;
+}
+
+.cont-top-img {
+    margin-top: 1rem;
+    align-items: center;
+}
+
+#hr {
+    height: 3px;
+    border-width: 0;
+    width: 80px;
+    background-color: rgb(150, 40, 90);
+}
+
+#cont-bottom {
+    margin-top: 1rem;
+}
+
+.home-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 2px;
 }
 
 .cardDiv {
     cursor: pointer;
-    border-radius: 10px;
+    border-color: whitesmoke;
 }
 
 .cardDiv img {
-    transition: all linear 0.25s;
+    border: none;
+    border-radius: 0px !important;
+    border-style: none;
+    border-color: whitesmoke;
+    background-position: cover;
+    /* image-rendering: auto; */
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.card {
+    border-radius: 0px !important;
 }
 
 .card-title {
-    position: absolute;
-    left: 2rem;
-    bottom: 1rem;
-    font-size: 3rem;
+    position: relative;
+    font-size: 2rem;
     color: #FFF;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    transition: all linear 0.25s;
+    font-family: 'GlacialIndifference_bold';
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 6rem;
 }
 
-.card-text {
-    color: black;
-    font-weight: bold;
-    transition: all linear 0.25s;
+#btn-card {
+    font-family: 'GlacialIndifference_reg';
+    border-radius: 0%;
+    width: 8rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    object-position: center !important;
+    align-items: center !important;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
 }
 
-.card-text2 {
-    left: 2rem;
-    bottom: 0.5rem;
+#btn-card:hover {
+    background-color: rgb(216, 112, 147, 0.5);
+    border-style: none !important;
     color: white;
-    font-weight: bold;
 }
 
 .cardDiv:hover {
-    animation: pulse;
-    animation-duration: 1s;
-    filter: hue-rotate(90deg);
+    /* animation: pulse; */
+    animation-duration: 0.5s;
+    opacity: 0.9;
+    /* filter: hue-rotate(90deg); */
 }
 
 .parallax {
-    background-image: url("/assets/frangipani.jpg");
     /* Set a specific height */
-    height: 200vh;
-    /* width: 100%; */
+    height: 50vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position-y: cover;
-    background-size: initial;
-    padding: 0;
-    margin: auto;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/maui.jpg");
+}
+
+.overlay {
+    position: absolute;
+    /* background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); */
+    width: 90%;
+    font-size: 4rem;
+    align-items: center !important;
+}
+
+.parallax-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 2px;
 }
 
 .parallax2 {
@@ -72,16 +131,186 @@
     background-size: cover;
 }
 
+
+/* /assets/frangipani.jpg */
+
 .bar {
-    height: 20vh;
-    background-color: white;
-    align-items: center;
+    height: 1500vh;
+    background-color: ghostwhite;
 }
 
-.bar p {
-    font-family: 'Mynerve', cursive;
-    font-size: 3rem;
-    color: black;
+.bar-title {
+    font-size: 1.2rem;
     text-align: center;
-    margin-top: 5rem;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top: 15rem;
+}
+
+.about {
+    background-color: whitesmoke;
+}
+
+
+/* #container-about {
+    padding-top: 7rem !important;
+} */
+
+
+/* .cont-paral-text::first-letter {
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+    color: rgb(150, 40, 90);
+    font-weight: bold;
+    margin-right: .50em;
+} */
+
+.cont-para-img {
+    position: relative;
+    width: 30rem;
+}
+
+.post-title-paral {
+    background-color: white;
+    width: 520px;
+    height: 320px;
+    text-align: left;
+    padding-top: 2.5rem;
+    margin-top: 6rem;
+    margin-left: -3rem;
+    z-index: 1;
+    font-family: 'GlacialIndifference_reg';
+}
+
+#btn-card-paral {
+    font-family: 'GlacialIndifference_reg';
+    border-radius: 0%;
+    width: 8rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    object-position: center !important;
+    align-items: center !important;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+    background-color: rgb(150, 40, 90);
+    border-style: none !important;
+    color: white;
+}
+
+#btn-card-paral:hover {
+    background-color: rgb(216, 112, 147, 0.5);
+    border-style: none !important;
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    .post-title-paral {
+        background-color: white;
+        width: 90%;
+        text-align: center;
+        z-index: 1;
+        font-family: 'GlacialIndifference_reg';
+        margin-top: -7rem !important;
+    }
+    .cont-para-img {
+        width: 100%;
+    }
+    .overlay {
+        font-size: 1.8rem !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .cont-paral-text {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .overlay {
+        font-size: 2.2rem !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .post-title-paral {
+        background-color: white;
+        width: 90%;
+        text-align: center;
+        z-index: 1;
+        font-family: 'GlacialIndifference_reg';
+        margin-top: -7rem !important;
+    }
+    .cont-para-img {
+        width: 100%;
+    }
+    .cont-paral-text {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .overlay {
+        font-size: 3.2rem !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .post-title-paral {
+        background-color: white;
+        width: 80%;
+        text-align: center;
+        z-index: 1 !important;
+        font-family: 'GlacialIndifference_reg';
+        margin-top: 4rem !important;
+        margin-left: -5rem !important;
+        width: 630px !important;
+        height: 400px !important;
+    }
+    .cont-paral-text {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .post-title-paral {
+        background-color: white;
+        width: 80%;
+        text-align: center;
+        z-index: 1 !important;
+        font-family: 'GlacialIndifference_reg';
+        margin-top: 4rem !important;
+        margin-left: -5rem !important;
+        width: 630px;
+        height: 330px;
+    }
+    .cont-paral-text {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2000px) {
+    .post-title-paral {
+        background-color: white;
+        width: 80%;
+        text-align: center;
+        z-index: 1 !important;
+        font-family: 'GlacialIndifference_reg';
+        margin-top: 4rem !important;
+        margin-left: -6rem !important;
+        width: 600px;
+        height: 330px;
+    }
+    .cont-paral-text {
+        width: 80%;
+        text-align: center;
+        font-size: 1.1rem !important;
+    }
+    .cont-para-img {
+        position: relative;
+        width: 35rem;
+    }
 }
