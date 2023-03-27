@@ -112,6 +112,7 @@
     width: 90%;
     font-size: 4rem;
     align-items: center !important;
+    text-align: center !important;
 }
 
 .parallax-title {
@@ -312,5 +313,42 @@
     .cont-para-img {
         position: relative;
         width: 35rem;
+    }
+    .overlay {
+        align-items: center !important;
+        text-align: center !important;
+        margin-top: 7rem !important;
+        margin-left: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 2001px) {
+    .post-title-paral {
+        background-color: white;
+        width: 80%;
+        text-align: center;
+        z-index: 1 !important;
+        font-family: 'GlacialIndifference_reg';
+        margin-top: 4rem !important;
+        margin-left: -6rem !important;
+        width: 600px;
+        height: 330px;
+    }
+    .cont-paral-text {
+        width: 80%;
+        text-align: center;
+        font-size: 1.1rem !important;
+    }
+    .cont-para-img {
+        position: relative;
+        width: 40rem;
+        margin-left: 20rem !important;
+        /* margin: auto !important; */
+    }
+    .overlay {
+        align-items: center !important;
+        text-align: center !important;
+        margin-top: 9rem !important;
+        margin-left: 5rem !important;
     }
 }
