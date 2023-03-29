@@ -1,3 +1,172 @@
 footer {
-    background-color: black !important;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 1px !important;
+    position: relative;
+    z-index: 3;
+    background-color: rgb(2, 2, 2, 0.9) !important;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.part1 h1 {
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+}
+
+.part1 p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+}
+
+.part2 {
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.part2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.part2 a:hover {
+    color: rgb(150, 40, 90);
+    /* border-bottom: 0.125rem solid black; */
+}
+
+.part3 {
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.part3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.part3 a:hover {
+    color: rgb(150, 40, 90);
+}
+
+.part4 {
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 0.9rem;
+}
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    position: relative;
+    color: rgb(150, 40, 90);
+}
+
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ftco-footer-social li a:hover {
+    color: #fff;
+}
+
+.footer-03 .subscribe-form .form-group {
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.subscribe-form input {
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+#subscribe:hover {
+    background-color: rgb(216, 112, 147, 0.3) !important;
+    border-color: rgb(216, 112, 147, 0.3) !important;
+}
+
+hr {
+    color: white!important;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 576px) {
+    .part1 {
+        display: none;
+    }
+    .part2 {
+        align-items: center !important;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    .part3 {
+        align-items: center !important;
+        margin-left: 2rem;
+        padding-left: 4rem;
+    }
+    .part4 {
+        align-items: center !important;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    .footer-heading {
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .part1 {
+        display: none;
+    }
+    .part2 {
+        align-items: center !important;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    .part3 {
+        align-items: center !important;
+        margin-left: 2rem;
+        padding-left: 4rem;
+    }
+    .part4 {
+        align-items: center !important;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    .footer-heading {
+        margin-top: 1rem !important;
+    }
 }

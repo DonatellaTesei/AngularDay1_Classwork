@@ -1,22 +1,10 @@
-#cont-top {
-    display: flex;
-    justify-content: center;
-}
-
 .post-title {
     background-color: white;
     width: 300px;
     height: 260px;
     text-align: center;
     padding-top: 2.5rem;
-    margin-top: 6rem;
-    margin-left: -3rem;
     z-index: 1;
-}
-
-.cont-top-img {
-    margin-top: 1rem;
-    align-items: center;
 }
 
 #hr {
@@ -49,7 +37,6 @@
     border-style: none;
     border-color: whitesmoke;
     background-position: cover;
-    /* image-rendering: auto; */
     object-fit: cover;
     opacity: 0.9;
 }
@@ -122,21 +109,8 @@
     letter-spacing: 2px;
 }
 
-.parallax2 {
-    background-image: url("/assets/hawaiiSunset.jpg");
-    /* Set a specific height */
-    height: 200vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: cover;
-    background-size: cover;
-}
-
-
-/* /assets/frangipani.jpg */
-
 .bar {
-    height: 1500vh;
+    height: auto;
     background-color: ghostwhite;
 }
 
@@ -152,11 +126,6 @@
 .about {
     background-color: whitesmoke;
 }
-
-
-/* #container-about {
-    padding-top: 7rem !important;
-} */
 
 
 /* .cont-paral-text::first-letter {
@@ -206,6 +175,38 @@
     color: white;
 }
 
+.photos {
+    display: flex;
+    height: 40vh;
+    position: relative !important;
+}
+
+.photos img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    object-fit: cover;
+}
+
+.img1 {
+    flex: 0.562;
+}
+
+.img2 {
+    flex: 0.666;
+}
+
+.img3 {
+    flex: 0.666;
+}
+
+.img4 {
+    flex: 0.563;
+}
+
+
+/* media query */
+
 @media screen and (max-width: 576px) {
     .post-title-paral {
         background-color: white;
@@ -226,6 +227,21 @@
     .cont-paral-text {
         width: 90%;
         text-align: center;
+    }
+    .post-title {
+        margin-top: -3rem !important;
+        z-index: 1;
+        height: 190px !important;
+        padding-bottom: 5rem !important;
+    }
+    .cont-top-text {
+        font-size: 1.7rem !important;
+    }
+    .cont-top-img {
+        width: 100% !important;
+    }
+    .cont-top-title {
+        margin-top: -1rem !important;
     }
 }
 
@@ -250,6 +266,21 @@
         width: 80%;
         text-align: center;
     }
+    .post-title {
+        margin-top: -3rem !important;
+        z-index: 1;
+        height: 190px !important;
+        padding-bottom: 5rem !important;
+    }
+    .cont-top-text {
+        font-size: 1.7rem !important;
+    }
+    .cont-top-img {
+        width: 60vw !important;
+    }
+    .cont-top-title {
+        margin-top: -1rem !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -273,6 +304,19 @@
         width: 80%;
         text-align: center;
     }
+    .post-title {
+        padding-top: 2rem;
+        margin-top: 0.8rem;
+        margin-left: -3rem !important;
+        z-index: 1;
+        height: 200px !important;
+    }
+    .cont-top-text {
+        font-size: 1.7rem !important;
+    }
+    .cont-top-img {
+        margin-left: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -291,6 +335,22 @@
         width: 80%;
         text-align: center;
     }
+    .post-title {
+        padding-top: 2rem;
+        margin-top: 0.8rem;
+        margin-left: -6rem !important;
+        z-index: 1;
+        height: 240px !important;
+    }
+    .cont-top-img {
+        margin-left: 2rem !important;
+    }
+    #card {
+        width: 18rem !important;
+    }
+    #card-img {
+        height: 18rem !important;
+    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
@@ -301,7 +361,7 @@
         z-index: 1 !important;
         font-family: 'GlacialIndifference_reg';
         margin-top: 4rem !important;
-        margin-left: -6rem !important;
+        margin-left: -10rem !important;
         width: 600px;
         height: 330px;
     }
@@ -312,7 +372,8 @@
     }
     .cont-para-img {
         position: relative;
-        width: 35rem;
+        width: 30rem;
+        margin-left: 1rem !important;
     }
     .overlay {
         align-items: center !important;
@@ -320,17 +381,26 @@
         margin-top: 7rem !important;
         margin-left: 4rem !important;
     }
+    .post-title {
+        padding-top: 2rem;
+        margin-top: 1.2rem;
+        margin-left: -14rem !important;
+        z-index: 1;
+    }
+    .cont-top-img {
+        margin-left: 1rem !important;
+    }
 }
 
 @media screen and (min-width: 2001px) {
     .post-title-paral {
         background-color: white;
-        width: 80%;
+        width: 50% !important;
         text-align: center;
         z-index: 1 !important;
         font-family: 'GlacialIndifference_reg';
         margin-top: 4rem !important;
-        margin-left: -6rem !important;
+        margin-left: -8rem !important;
         width: 600px;
         height: 330px;
     }
@@ -341,14 +411,22 @@
     }
     .cont-para-img {
         position: relative;
-        width: 40rem;
-        margin-left: 20rem !important;
-        /* margin: auto !important; */
+        width: 30rem;
+        margin-left: 1rem !important;
     }
     .overlay {
         align-items: center !important;
         text-align: center !important;
-        margin-top: 9rem !important;
+        margin-top: 5rem !important;
         margin-left: 5rem !important;
+    }
+    .post-title {
+        padding-top: 2rem;
+        margin-top: 1.2rem;
+        margin-left: -14rem !important;
+        z-index: 1;
+    }
+    .cont-top-img {
+        margin-left: 1rem !important;
     }
 }
