@@ -1,0 +1,49 @@
+.cardDiv {
+    cursor: pointer;
+    border-color: whitesmoke;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 2px;
+}
+
+.cardDiv img {
+    border: none;
+    border-radius: 0px !important;
+    border-style: none;
+    border-color: whitesmoke;
+    background-position: cover;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.card {
+    border-radius: 0px !important;
+    background-color: whitesmoke;
+}
+
+.card-img-overlay {
+    position: absolute;
+    width: 100%!important;
+    margin-left: 0rem!important;
+    padding-left: 0rem!important;
+}
+
+.bar-title {
+    font-size: 1rem !important;
+    text-align: left;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top: 12rem;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}
+
+.card-description {
+    font-size: 0.5rem !important;
+    text-align: left;
+    font-family: 'GlacialIndifference_reg';
+    letter-spacing: 1px;
+    margin-top: 3.5rem;
+    background-color: whitesmoke;
+    color: rgb(150, 40, 90);
+}

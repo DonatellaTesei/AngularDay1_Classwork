@@ -1,0 +1,27 @@
+<app-hero-trips></app-hero-trips>
+<div class="box">
+
+    <!-- card -->
+    <div class="container-cards mb-5 mt-5 mx-auto" style="width:90%">
+        <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-1 mx-auto" style="width:90%; row-gap: 4rem;">
+            <div *ngFor="let val of trips; index as i">
+
+
+                <div class="cardDiv mb-3">
+                    <div class="card mx-auto border-0" style="width: 12rem; margin: 0 auto">
+                        <img src="{{ val.image }}" class="card-img w-100" alt="{{val.name}}" style="height:12rem;">
+
+                        <div class="card-img-overlay">
+                            <h5 class="bar-title ps-0 ms-0"><a href="" style="text-decoration: none; color:black;">{{val.name}}</a></h5>
+                        </div>
+                        <div class="card-description">
+                            <p class="">{{val.description}}</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
