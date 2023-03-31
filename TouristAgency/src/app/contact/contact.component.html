@@ -1,0 +1,36 @@
+<div class="hero">
+
+
+    <div class="form-wrapper mt-2">
+        <div>
+
+            <h1 class="contact-title mt-5 mb-4">Contact us</h1>
+        </div>
+        <form [formGroup]="myForm">
+            <div class="firstRaw d-flex flex-direction-row  justify-content-around flex-wrap flex-sm-wrap flex-md-nowrap flex-lg-nowrap">
+
+                <input id="fullName" type="text" formControlName="fullName" placeholder="FULL NAME" class="me-md-2 me-lg-2 me-xl-2">
+
+                <input id="email" type="text" formControlName="email" placeholder="EMAIL ADDRESS" class="ms-md-2 ms-lg-2 ms-xl-2">
+            </div>
+
+            <input id="subject" type="text" formControlName="subject" placeholder="SUBJECT LINE">
+
+
+            <textarea type="text" formControlName="message" placeholder="MESSAGE" class="form-control" rows="6"></textarea>
+
+
+            <input class="input" [class.disabled]="!myForm.valid" [swal]="['', 'Message sent', 'success']" type="submit" class="btn btn-dark mt-3" value="GET IN TOUCH">
+        </form>
+
+    </div>
+    <!-- end of form -->
+</div>
+<div class="photos">
+    <div class="img1"><img src="/assets/mountainSunset.jpg" alt="mountain"></div>
+    <div class="img2"><img src="/assets/cuba-house.jpg" alt="house"></div>
+    <div class="img3"><img src="/assets/palms.jpg" alt="palms"></div>
+    <div class="img4"><img src="/assets/Sardinia.jpg" alt="bay"></div>
+</div>
+<br>
+<br>

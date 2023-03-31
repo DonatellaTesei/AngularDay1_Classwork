@@ -1,0 +1,12 @@
+.bi-arrow-up-circle-fill {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    cursor: pointer !important;
+    color: rgb(150, 40, 90);
+    z-index: 4;
+}
+
+.bi-arrow-up-circle-fill:hover {
+    color: rgb(150, 40, 90, 0.6) !important;
+}

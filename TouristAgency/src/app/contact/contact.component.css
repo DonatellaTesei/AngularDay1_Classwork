@@ -1,0 +1,144 @@
+    /* hero section  */
+    
+    .hero {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        align-items: center;
+        text-align: center;
+        color: white;
+        top: 0px;
+        z-index: -1;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/NY.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: absolute;
+        margin-bottom: 3rem;
+    }
+    
+    .contact-title {
+        font-family: 'Mynerve', cursive;
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    /* hero section  */
+    /* form */
+    
+    .form-wrapper {
+        width: 45%;
+    }
+    
+    form {
+        font-family: 'GlacialIndifference_reg';
+        letter-spacing: 2px;
+        font-size: 0.5rem;
+        align-items: center;
+    }
+    
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        box-sizing: border-box;
+        letter-spacing: 2px;
+        font-size: 0.6rem;
+        background-color: rgb(242, 242, 242, 0.7);
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        box-sizing: border-box;
+        letter-spacing: 2px;
+        font-size: 0.6rem;
+        background-color: rgb(242, 242, 242, 0.7);
+    }
+    
+    input[type=submit] {
+        width: 8rem;
+        height: 5vh;
+        background-color: rgb(150, 40, 90);
+        /* background-color: rgb(216, 112, 147, 0.8); */
+        color: white;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        font-family: 'GlacialIndifference_reg';
+        letter-spacing: 2px;
+        font-size: 0.6rem;
+    }
+    
+    input.ng-invalid.ng-touched {
+        border: 1px solid red
+    }
+    /* end of form */
+    /* photo end of page */
+    
+    .photos {
+        display: flex;
+        height: 40vh;
+        position: relative !important;
+    }
+    
+    .photos img {
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        object-fit: cover;
+    }
+    
+    .img1 {
+        flex: 0.562;
+    }
+    
+    .img2 {
+        flex: 0.666;
+    }
+    
+    .img3 {
+        flex: 0.666;
+    }
+    
+    .img4 {
+        flex: 0.563;
+    }
+    /* photo end of page */
+    /* media query */
+    
+    @media screen and (max-width: 576px) {
+        .form-wrapper {
+            width: 80%;
+        }
+        .contact-title {
+            padding-top: 3rem;
+        }
+    }
+    
+    @media screen and (min-width: 577px) and (max-width: 767px) {
+        .form-wrapper {
+            width: 60%;
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        .form-wrapper {
+            width: 60%;
+        }
+    }
+    
+    @media screen and (min-width: 1201px) and (max-width: 2000px) {
+        .form-wrapper {
+            width: 40%;
+        }
+    }

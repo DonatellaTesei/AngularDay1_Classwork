@@ -4,7 +4,7 @@ nav {
     color: var(--navbar-scroll-text);
     -webkit-box-shadow: var(--navbar-scroll-shadow);
     box-shadow: var(--navbar-scroll-shadow);
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-family: 'GlacialIndifference_reg';
     letter-spacing: 2px;
     position: fixed;
@@ -16,7 +16,7 @@ nav {
 }
 
 .dropdown-menu {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-family: 'GlacialIndifference_reg';
     background-color: var(--dropdown-menu);
     border-radius: 0%;

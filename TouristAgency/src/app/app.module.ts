@@ -11,6 +11,10 @@ import { AboutComponent } from './about/about.component';
 import { HeroAboutComponent } from './hero-about/hero-about.component';
 import { TripsComponent } from './trips/trips.component';
 import { HeroTripsComponent } from './hero-trips/hero-trips.component';
+import { ContactComponent } from './contact/contact.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +26,15 @@ import { HeroTripsComponent } from './hero-trips/hero-trips.component';
     AboutComponent,
     HeroAboutComponent,
     TripsComponent,
-    HeroTripsComponent
+    HeroTripsComponent,
+    ContactComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
