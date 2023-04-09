@@ -84,19 +84,16 @@
 
 .parallax {
     /* Set a specific height */
-    height: 50vh;
+    height: 40vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position-y: cover;
     background-size: cover;
+    position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/maui.jpg");
 }
 
 .overlay {
     position: absolute;
-    /* background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); */
-    width: 90%;
     font-size: 4rem;
     align-items: center !important;
     text-align: center !important;
@@ -126,15 +123,6 @@
 .about {
     background-color: whitesmoke;
 }
-
-
-/* .cont-paral-text::first-letter {
-    -webkit-initial-letter: 2;
-    initial-letter: 2;
-    color: rgb(150, 40, 90);
-    font-weight: bold;
-    margin-right: .50em;
-} */
 
 .cont-para-img {
     position: relative;
@@ -219,10 +207,11 @@
     .cont-para-img {
         width: 100%;
     }
+    .parallax {
+        height: 30vh;
+    }
     .overlay {
-        font-size: 1.8rem !important;
-        text-align: center !important;
-        align-items: center !important;
+        font-size: 2.1rem !important;
     }
     .cont-paral-text {
         width: 90%;
@@ -246,10 +235,11 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
+    .parallax {
+        height: 30vh;
+    }
     .overlay {
-        font-size: 2.2rem !important;
-        text-align: center !important;
-        align-items: center !important;
+        font-size: 2.4rem !important;
     }
     .post-title-paral {
         background-color: white;
@@ -285,9 +275,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .overlay {
-        font-size: 3.2rem !important;
-        text-align: center !important;
-        align-items: center !important;
+        font-size: 3.3rem !important;
     }
     .post-title-paral {
         background-color: white;
@@ -320,6 +308,12 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* .parallax {
+        height: 40vh;
+    } */
+    .overlay {
+        font-size: 4rem;
+    }
     .post-title-paral {
         background-color: white;
         width: 80%;
@@ -375,11 +369,11 @@
         width: 30rem;
         margin-left: 1rem !important;
     }
+    .parallax {
+        height: 40vh;
+    }
     .overlay {
-        align-items: center !important;
-        text-align: center !important;
-        margin-top: 7rem !important;
-        margin-left: 4rem !important;
+        font-size: 4.3rem;
     }
     .post-title {
         padding-top: 2rem;
@@ -413,12 +407,6 @@
         position: relative;
         width: 30rem;
         margin-left: 1rem !important;
-    }
-    .overlay {
-        align-items: center !important;
-        text-align: center !important;
-        margin-top: 5rem !important;
-        margin-left: 5rem !important;
     }
     .post-title {
         padding-top: 2rem;

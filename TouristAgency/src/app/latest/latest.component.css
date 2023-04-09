@@ -1,0 +1,144 @@
+    /* hero section  */
+    
+    .hero {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        align-items: center;
+        text-align: center;
+        color: white;
+        top: 0px;
+        z-index: -1;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/palmSky.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: absolute;
+        margin-bottom: 3rem;
+    }
+    
+    .post-title {
+        background-color: white;
+        width: 300px;
+        height: 260px;
+        text-align: center;
+        padding-top: 2.5rem;
+        z-index: 1;
+    }
+    
+    #hr {
+        height: 3px;
+        border-width: 0;
+        width: 80px;
+        background-color: rgb(150, 40, 90);
+    }
+    
+    .post-text {
+        font-size: 0.7rem !important;
+        text-align: left;
+        font-family: 'GlacialIndifference_reg';
+        letter-spacing: 1px;
+        margin-top: 3.5rem;
+        background-color: whitesmoke;
+        color: rgb(150, 40, 90);
+    }
+    
+    #post-text-top::first-letter {
+        -webkit-initial-letter: 2;
+        initial-letter: 2;
+        color: rgb(150, 40, 90);
+        font-weight: bold;
+        margin-right: .50em;
+    }
+    /* media query */
+    
+    @media screen and (max-width: 576px) {
+        .cont-top-text {
+            font-size: 1.7rem !important;
+        }
+        .cont-top-img {
+            width: 100% !important;
+        }
+        .cont-top-title {
+            margin-top: -1rem !important;
+        }
+        .post-title {
+            margin-top: -3rem !important;
+            z-index: 1;
+            height: 190px !important;
+            padding-bottom: 5rem !important;
+        }
+    }
+    
+    @media screen and (min-width: 577px) and (max-width: 767px) {
+        .cont-top-text {
+            font-size: 1.7rem !important;
+        }
+        .cont-top-img {
+            width: 60vw !important;
+        }
+        .cont-top-title {
+            margin-top: -1rem !important;
+        }
+        .post-title {
+            margin-top: -3rem !important;
+            z-index: 1;
+            height: 190px !important;
+            padding-bottom: 5rem !important;
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        .post-title {
+            padding-top: 2rem;
+            margin-top: 0.8rem;
+            margin-left: -3rem !important;
+            z-index: 1;
+            height: 200px !important;
+        }
+        .cont-top-text {
+            font-size: 1.7rem !important;
+        }
+        .cont-top-img {
+            margin-left: 1rem !important;
+        }
+    }
+    
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        .post-title {
+            padding-top: 2rem;
+            margin-top: 0.8rem;
+            margin-left: -6rem !important;
+            z-index: 1;
+            height: 240px !important;
+        }
+        .cont-top-img {
+            margin-left: 2rem !important;
+        }
+    }
+    
+    @media screen and (min-width: 1201px) and (max-width: 2000px) {
+        .post-title {
+            padding-top: 2rem;
+            margin-top: 1.2rem;
+            margin-left: -14rem !important;
+            z-index: 1;
+        }
+        .cont-top-img {
+            margin-left: 1rem !important;
+        }
+    }
+    
+    @media screen and (min-width: 2001px) {
+        .post-title {
+            padding-top: 2rem;
+            margin-top: 1.2rem;
+            margin-left: -14rem !important;
+            z-index: 1;
+        }
+        .cont-top-img {
+            margin-left: 1rem !important;
+        }
+    }

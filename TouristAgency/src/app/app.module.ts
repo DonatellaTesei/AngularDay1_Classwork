@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import { LatestComponent } from './latest/latest.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
     TripsComponent,
     HeroTripsComponent,
     ContactComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    LatestComponent
   ],
   imports: [
     BrowserModule,

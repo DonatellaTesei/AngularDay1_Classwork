@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { TripsComponent } from './trips/trips.component';
 import { ContactComponent } from './contact/contact.component';
+import { LatestComponent } from './latest/latest.component';
 
 const routes: Routes = [{
   path: "", component: HomePageComponent
@@ -14,6 +15,10 @@ const routes: Routes = [{
 },{
   path: "contact", component: ContactComponent
 },{
+path: "latest", component: LatestComponent
+},
+
+{
   path: "**", redirectTo: ""
 
 }];
