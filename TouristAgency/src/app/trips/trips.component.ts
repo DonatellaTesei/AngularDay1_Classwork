@@ -9,8 +9,9 @@ import { Itrip } from '../Itrip';
   styleUrls: ['./trips.component.css']
 })
 export class TripsComponent {
-  trips: Array<Itrip> = trips;
+trips: Array<Itrip> = trips;
+trip: Itrip = {} as Itrip;
+id: number = 0;
 
- trip: Itrip = {} as Itrip;
-  id: number = 0;
+available: boolean = true;
 }

@@ -9,12 +9,14 @@
 
                 <div class="cardDiv mb-3">
                     <div class="card mx-auto border-0" style="width: 12rem; margin: 0 auto">
+
                         <img src="{{ val.image }}" class="card-img w-100" alt="{{val.name}}" style="height:12rem;">
 
                         <div class="card-img-overlay">
+
                             <h5 class="bar-title ps-0 ms-0"><a href="" style="text-decoration: none; color:black;">{{val.name}}</a></h5>
                         </div>
-                        <div class="card-description">
+                        <div class="card-description" [ngClass]="{'unavailable': !val.available}" [ngClass]="{'active-card': val.available}">
                             <p class="">{{val.description}}</p>
                         </div>
                     </div>

@@ -47,3 +47,8 @@
     background-color: whitesmoke;
     color: rgb(150, 40, 90);
 }
+
+.unavailable {
+    cursor: not-allowed !important;
+    color: blue!important;
+}
