@@ -1,12 +1,3 @@
-.post-title {
-    background-color: white;
-    width: 300px;
-    height: 260px;
-    text-align: center;
-    padding-top: 2.5rem;
-    z-index: 1;
-}
-
 #hr {
     height: 3px;
     border-width: 0;
@@ -16,14 +7,6 @@
 
 #cont-bottom {
     margin-top: 1rem;
-}
-
-.home-title {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-family: 'GlacialIndifference_reg';
-    letter-spacing: 2px;
 }
 
 .cardDiv {
@@ -39,10 +22,6 @@
     background-position: cover;
     object-fit: cover;
     opacity: 0.9;
-}
-
-.card {
-    border-radius: 0px !important;
 }
 
 .card-title {
@@ -76,10 +55,8 @@
 }
 
 .cardDiv:hover {
-    /* animation: pulse; */
     animation-duration: 0.5s;
     opacity: 0.9;
-    /* filter: hue-rotate(90deg); */
 }
 
 .parallax {
@@ -195,11 +172,8 @@
 
 @media screen and (max-width: 576px) {
     .post-title-paral {
-        background-color: white;
         width: 90%;
         text-align: center;
-        z-index: 1;
-        font-family: 'GlacialIndifference_reg';
         margin-top: -7rem !important;
     }
     .cont-para-img {
@@ -240,11 +214,8 @@
         font-size: 2.4rem !important;
     }
     .post-title-paral {
-        background-color: white;
         width: 90%;
         text-align: center;
-        z-index: 1;
-        font-family: 'GlacialIndifference_reg';
         margin-top: -7rem !important;
     }
     .cont-para-img {
@@ -279,11 +250,8 @@
         height: 40vh;
     }
     .post-title-paral {
-        background-color: white;
         width: 80%;
         text-align: center;
-        z-index: 1 !important;
-        font-family: 'GlacialIndifference_reg';
         margin-top: 4rem !important;
         margin-left: -5rem !important;
         width: 630px !important;
@@ -316,11 +284,8 @@
         font-size: 3.5rem;
     }
     .post-title-paral {
-        background-color: white;
         width: 80%;
         text-align: center;
-        z-index: 1 !important;
-        font-family: 'GlacialIndifference_reg';
         margin-top: 4rem !important;
         margin-left: -5rem !important;
         width: 630px;
@@ -350,11 +315,8 @@
 
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
     .post-title-paral {
-        background-color: white;
         width: 80%;
         text-align: center;
-        z-index: 1 !important;
-        font-family: 'GlacialIndifference_reg';
         margin-top: 4rem !important;
         margin-left: -10rem !important;
         width: 600px;
@@ -389,11 +351,8 @@
 
 @media screen and (min-width: 2001px) {
     .post-title-paral {
-        background-color: white;
         width: 50% !important;
         text-align: center;
-        z-index: 1 !important;
-        font-family: 'GlacialIndifference_reg';
         margin-top: 4rem !important;
         margin-left: -8rem !important;
         width: 600px;
