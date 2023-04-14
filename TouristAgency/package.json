@@ -22,7 +22,7 @@
     "@sweetalert2/ngx-sweetalert2": "^12.1.0",
     "@videogular/ngx-videogular": "^7.0.1",
     "rxjs": "~7.8.0",
-    "sweetalert2": "^11.7.3",
+    "sweetalert2": "^11.4.8",
     "tslib": "^2.3.0",
     "videojs-playlist": "^5.0.1",
     "zone.js": "~0.12.0"
