@@ -83,9 +83,6 @@
 }
 
 .parallax {
-    /* Set a specific height */
-    height: 40vh;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-size: cover;
     position: relative;
@@ -94,8 +91,9 @@
 
 .overlay {
     position: absolute;
-    font-size: 4rem;
-    align-items: center !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center !important;
 }
 
@@ -208,9 +206,9 @@
         width: 100%;
     }
     .parallax {
-        height: 30vh;
+        height: 35vh;
     }
-    .overlay {
+    .overlay h3 {
         font-size: 2.1rem !important;
     }
     .cont-paral-text {
@@ -236,9 +234,9 @@
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
     .parallax {
-        height: 30vh;
+        height: 35vh;
     }
-    .overlay {
+    .overlay h3 {
         font-size: 2.4rem !important;
     }
     .post-title-paral {
@@ -274,8 +272,11 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .overlay {
-        font-size: 3.3rem !important;
+    .overlay h3 {
+        font-size: 3rem !important;
+    }
+    .parallax {
+        height: 40vh;
     }
     .post-title-paral {
         background-color: white;
@@ -308,11 +309,11 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-    /* .parallax {
+    .parallax {
         height: 40vh;
-    } */
-    .overlay {
-        font-size: 4rem;
+    }
+    .overlay h3 {
+        font-size: 3.5rem;
     }
     .post-title-paral {
         background-color: white;
@@ -372,8 +373,8 @@
     .parallax {
         height: 40vh;
     }
-    .overlay {
-        font-size: 4.3rem;
+    .overlay h3 {
+        font-size: 4.2rem;
     }
     .post-title {
         padding-top: 2rem;
@@ -416,5 +417,11 @@
     }
     .cont-top-img {
         margin-left: 1rem !important;
+    }
+    .parallax {
+        height: 40vh;
+    }
+    .overlay h3 {
+        font-size: 4.4rem;
     }
 }

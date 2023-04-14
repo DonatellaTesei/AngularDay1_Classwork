@@ -247,6 +247,10 @@
         .cont-top-img {
             margin-left: 2rem !important;
         }
+        .bottom-left {
+            width: 35vw !important;
+            height: 50vh !important;
+        }
     }
     
     @media screen and (min-width: 1201px) and (max-width: 2000px) {
@@ -297,12 +301,12 @@
             width: 35vw !important;
         }
         .bottom-left {
-            width: 40% !important;
+            width: 35% !important;
             height: 50vh !important;
         }
         .bottom-right {
             width: 35% !important;
-            height: 50
+            height: 50vh !important;
         }
     }
     

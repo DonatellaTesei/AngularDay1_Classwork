@@ -3,7 +3,8 @@ footer {
     letter-spacing: 1px !important;
     position: relative;
     z-index: 3;
-    background-color: rgb(2, 2, 2, 0.9) !important;
+    background-color: black !important;
+    /* background-color: rgb(2, 2, 2, 0.9) !important; */
 }
 
 .section {

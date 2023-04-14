@@ -21,6 +21,7 @@
 }
 
 .card-img-overlay {
+    height: auto;
     position: absolute;
     width: 100%!important;
     margin-left: 0rem!important;
@@ -46,9 +47,11 @@
     margin-top: 3.5rem;
     background-color: whitesmoke;
     color: rgb(150, 40, 90);
+    cursor: none;
 }
 
-.unavailable {
+
+/* .unavailable {
     cursor: not-allowed !important;
     color: blue!important;
-}
+} */

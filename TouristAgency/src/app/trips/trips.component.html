@@ -14,9 +14,10 @@
 
                         <div class="card-img-overlay">
 
-                            <h5 class="bar-title ps-0 ms-0"><a href="" style="text-decoration: none; color:black;">{{val.name}}</a></h5>
+                            <h5 class="bar-title ps-0 ms-0"><a href="" style="text-decoration: none;color:black">{{val.name}}</a></h5>
+
                         </div>
-                        <div class="card-description" [ngClass]="{'unavailable': !val.available}" [ngClass]="{'active-card': val.available}">
+                        <div class="card-description">
                             <p class="">{{val.description}}</p>
                         </div>
                     </div>

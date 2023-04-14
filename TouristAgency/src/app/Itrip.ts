@@ -4,5 +4,5 @@ export interface Itrip{
     description:string, 
     location:string, 
     image:string,
-   available: boolean
+    available:boolean
   }

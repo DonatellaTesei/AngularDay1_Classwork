@@ -10,8 +10,9 @@ import { Itrip } from '../Itrip';
 })
 export class TripsComponent {
 trips: Array<Itrip> = trips;
+available: boolean = true;
 trip: Itrip = {} as Itrip;
 id: number = 0;
 
-available: boolean = true;
+
 }
